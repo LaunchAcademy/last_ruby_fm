@@ -1,0 +1,106 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://ws.audioscrobbler.com/2.0/?api_key=<LASTFM API KEY>&artist=Stone%20Temple%20Pilots&format=json&method=artist.search
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.8.7
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - ! '*/*'
+  response:
+    status:
+      code: 200
+      message: !binary |-
+        T0s=
+    headers:
+      !binary "U2VydmVy":
+      - !binary |-
+        QXBhY2hlLzIuMi4yMiAoVW5peCk=
+      !binary "WC1XZWItTm9kZQ==":
+      - !binary |-
+        d3d3MjE0
+      !binary "QWNjZXNzLUNvbnRyb2wtQWxsb3ctT3JpZ2lu":
+      - !binary |-
+        Kg==
+      !binary "QWNjZXNzLUNvbnRyb2wtQWxsb3ctTWV0aG9kcw==":
+      - !binary |-
+        UE9TVCwgR0VULCBPUFRJT05T
+      !binary "QWNjZXNzLUNvbnRyb2wtTWF4LUFnZQ==":
+      - !binary |-
+        ODY0MDA=
+      !binary "Q2FjaGUtQ29udHJvbA==":
+      - !binary |-
+        bWF4LWFnZT04NjQwMA==
+      !binary "RXhwaXJlcw==":
+      - !binary |-
+        TW9uLCAyNCBKdW4gMjAxMyAyMDo1MDo1NiBHTVQ=
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        YXBwbGljYXRpb24vanNvbjsgY2hhcnNldD11dGYtODs=
+      !binary "Q29udGVudC1FbmNvZGluZw==":
+      - !binary |-
+        Z3ppcA==
+      !binary "Q29udGVudC1MZW5ndGg=":
+      - !binary |-
+        MTEwMg==
+      !binary "QWNjZXB0LVJhbmdlcw==":
+      - !binary |-
+        Ynl0ZXM=
+      !binary "RGF0ZQ==":
+      - !binary |-
+        TW9uLCAyNCBKdW4gMjAxMyAwMDowMjozNiBHTVQ=
+      !binary "WC1WYXJuaXNo":
+      - !binary |-
+        Mjk4MTE2NzM3MiAyOTc4OTg5Mjk1
+      !binary "QWdl":
+      - !binary |-
+        MTE1MDE=
+      !binary "Vmlh":
+      - !binary |-
+        MS4xIHZhcm5pc2g=
+      !binary "Q29ubmVjdGlvbg==":
+      - !binary |-
+        Y2xvc2U=
+      !binary "WC1DbXM=":
+      - !binary |-
+        MQ==
+      !binary "WC1WYXJuaXNoLUhvc3Q=":
+      - !binary |-
+        dmFybmlzaDg=
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAA92aXXPiNhSG7/srPO5oJ7vmQ/626UULrOlkNt3QLpObdS+E
+        EcS7/mBlu9k2w3+vJEMCXofYgVzYNxqNLL/HevRyjgXciwQnWZAm4uBejNc4
+        SjAi3u3gzwyTf9nYzyn+nooDUeyIJA4w7RH8LcNJSgfyuTNMQnq7+CmNIyzM
+        cLgOsDD1g5iK0jkpIukUrdidsrjp7AdJ4xQFf+3ii7KpiAfX+b2X0QJ/p1fh
+        4TU/xWEyxWQrrbLLdLafpCFKvVvMF5QPiIPP92KEQvzkQwZ0Fo4w4U+hmIYi
+        M7lw7i/ogOWpynwO5a5uIbWr6eq8a0Eddi0PGgrEiznEOp2dkYBOvk3T9cDt
+        u/27u7tegJK0twzdfpglvuf2eXApDy7tESIYhWge5Ig6oh/yNX1+hP+gmiX0
+        ITH5B3fR10d5PuL2Vc3ty4qsqEbvy3rFlP3/mGYSoiCg6OvqGU/ohXjhZ+EL
+        BGXFKFcMEKErri+o6Eq5IBUh6KWqOoQ71dI9K9JYIXHzNwuz81icRQvhd0QW
+        OBLeCBUsZ8E9v1X0Egsi5UGkN1IFa8FSax2zydEtP7Z7z27EUXwHvC7ZUijF
+        McF4UeCmm0ZtbAecuDiltxNvAS++9cISo7QnjGkaTDERRjiK/GhF5xUAqtqJ
+        AHk0iUeTttGkg2gViFZPbpat27au6edLb+WKpyW4cs2TUly55OlJbqf79LaW
+        7KpkfPk2vs6CD97l8NlU+KM3t7EqDBbMap3BqkCZVB5taj74gAiKv2KhW6Hy
+        KFCtS3UrL3XbVHPcTDGMed4+T02V60IDjgJsGwxHD51WwYPQQ6xFS95XWYsX
+        vM9Hlgpr5zpvvYsSwm+Lr0T1KxMYq8AagrEChhPeV1k7fM/7fGSksKsjnbfj
+        i5IteNvcPTBMTFl7iyV0M0s3LDebqwutEuvamRU4BrAnjLMzBiMTjCBwLGDr
+        YGgBZ8Ro21qr8OYUj7/E6y+rT+3IAR/plEGVo45WlxJXblOtKYHULVKqXZVL
+        +HSbCsjNTHNJa4iObZu2mizTdr6sVjdqkwOOyXLZSAWODkZDVp1px4bAllmH
+        5riWlYoy/5WdrmXlHCZs3dH6YujxVxq6dt+Li/6zz3GepiH468rwIURr6N2g
+        JA78CBewmefAtqfdSF5Q03oVSmhtVky3TQUUGubrcKK6beKUcERpjmjNl/LL
+        qYy4ppRrSo+ajeRTYqF3BT7n+Hr0XWP5zK4/OsLM+WN65QjTy6vr2Se3f+Nc
+        3TizkzExaSmXlnJpoEwetJuJ60c7dQqcXnhEPLBTp0V8+O8UGfGj1SuAkvbF
+        G0kMKr2SHH4qqp3qYRZvKqMyV3W14oH6LH7KZdtC6dcCotpfzJT9kKJOmkoI
+        qhU+a7UZ7VTb8VmD2qsw0lrFyOw9fzSpz2ir2o6DCbRexUdW831EKYm/oTQl
+        7N9ry5iUp25xs9n89D/ZCfywuicAAA==
+    http_version: 
+  recorded_at: Mon, 24 Jun 2013 00:02:36 GMT
+recorded_with: VCR 2.5.0

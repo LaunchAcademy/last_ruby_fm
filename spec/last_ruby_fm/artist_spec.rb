@@ -1,7 +1,7 @@
 require 'rspec'
 require 'spec_helper'
 
-describe LastRubyFm::Artist do
+describe LastRubyFm::Artist, :vcr do
   context 'searching' do
     it 'returns a list of relevant artists' do
       artist_name = 'Stone Temple Pilots'
